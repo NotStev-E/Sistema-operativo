@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10;
+    font-family: 'Nunito', sans-serif;
+}
+:root{
+    --colorBase: #4b357b8c;
+    --colorOscuro: #4b357bc0;
+
+    --anchoIconos: 2.4rem
+    --largoIconos: 2.4rem;
+
+    --letra: 16px;
+    --letraGrande: 20px;
+    --Titulos: 30px;
+}
+body{
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=3472&resolucion=2880x1800);
+    background-size: cover;
+}
