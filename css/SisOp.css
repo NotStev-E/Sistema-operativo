@@ -1,0 +1,55 @@
+.SistemaOperativo{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(https://www.xtrafondos.com/descargar.php?id=3472&resolucion=2880x1800);
+    background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ventana{
+    width: 40rem;
+    height: 28rem;
+    background-color: var(--colorBase);
+
+    display: flex;
+    justify-content: baseline;
+    border-radius: 10px;
+}
+.barraVentana{
+    width: 100%;
+    height: 3.1rem;
+    border-radius: 10px;
+    background-color: var(--colorOscuro);
+}
+.barraDeTareas{
+    width: 3.1rem;
+    background-color: var(--colorBase);
+    position: absolute;
+
+    left: 0;
+    top: 0;
+    bottom: 0;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+    
+}
+img{
+    width: 24px;
+    height: 24px;
+}
+.iconoWindows{
+    width: 2.4rem;
+    height: 3rem;
+    border-bottom: 1px solid var(--colorBlanco);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
