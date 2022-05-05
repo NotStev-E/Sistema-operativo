@@ -3,6 +3,7 @@
     height: 100%;
     position: absolute;
     background-image: url(https://www.xtrafondos.com/descargar.php?id=3472&resolucion=2880x1800);
+    object-fit: cover;
     background-size: cover;
 
     display: flex;
@@ -23,64 +24,4 @@
     height: 2.8rem;
     border-radius: 10px;
     background-color: var(--colorOscuro);
-}
-.barraDeTareas{
-    width: 2.8rem;
-    background-color: var(--colorBase);
-    position: absolute;
-    margin: 0.3rem 0 0.3rem 0;
-    border-radius: 5px;
-
-    left: 0;
-    top: 0;
-    bottom: 0;
-
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-}
-img{
-    width: 24px;
-    height: 24px;
-}
-.iconoWindows{
-    width: 2.4rem;
-    height: 3rem;
-    border-bottom: 1px solid var(--colorBlanco);
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.iconoArchivos{
-    width: 2.4rem;
-    height: 3rem;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.iconoReloj{
-    width: 2.4rem;
-    height: 3rem;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.horaYFecha{
-    height: 2.4rem;
-    width: 7rem;
-    
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-
-    position: absolute;
-    bottom: 0.3rem;
-    left: 3.1rem;
-    
-    background-color: var(--colorOscuro);
-    border-radius: 5px;
 }
