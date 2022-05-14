@@ -80,8 +80,13 @@ img{
     justify-content: center;
     align-items: center;
 }
+
+
+
+
+
 .windows{
-    height: 15rem;
+    height: 16rem;
     width: 16rem;
     
     display: flex;
@@ -94,6 +99,11 @@ img{
     
     background-color: var(--colorBase);
     border-radius: 10px;
+
+    display: none;
+}
+.activar{
+    display: block;
 }
 .opcionesWindows{
     width: 2.8rem;
@@ -120,4 +130,18 @@ img{
 .iconoApagar img{
     width: 24px;
     height: 24px;
+}
+.otrasOpciones{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.otrasOpciones div{
+    width: 12.8rem;
+    height: 3rem;
+
+    border-bottom: 1px solid var(--colorBlanco);
 }
