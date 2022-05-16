@@ -18,7 +18,12 @@ img{
     width: 24px;
     height: 24px;
 }
-.iconoWindows{
+.iconos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.botonWindows{
     width: 2.4rem;
     height: 3rem;
     border-bottom: 1px solid var(--colorBlanco);
@@ -26,22 +31,49 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
-.iconoArchivos{
+.botonWindows2{
     width: 2.4rem;
+    height: 3rem;
+    border-bottom: 1px solid var(--colorBlanco);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    display: none;
+}
+.iconoArchivo{
+    width: 2.8rem;
     height: 3rem;
     
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
+}
+.iconoArchivo2{
+    width: 2.8rem;
+    height: 3rem;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    display: none;
 }
 .iconoReloj{
-    width: 2.4rem;
+    width: 2.8rem;
     height: 3rem;
     
     display: flex;
     justify-content: center;
     align-items: center;
+
+    cursor: pointer;
 }
 .horaYFecha{
     height: 2.4rem;
@@ -57,6 +89,8 @@ img{
     
     background-color: var(--colorOscuro);
     border-radius: 5px;
+
+    display: none;
 }
 .Hora{
     width: 6rem;
@@ -85,7 +119,7 @@ img{
 
 
 
-.windows{
+.inicio{
     height: 16rem;
     width: 16rem;
     
@@ -103,7 +137,17 @@ img{
     display: none;
 }
 .activar{
+    display: flex;
+}
+.desactivar{
+    display: none;
+}
+.activar2{
     display: block;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .opcionesWindows{
     width: 2.8rem;
@@ -130,6 +174,8 @@ img{
 .iconoApagar img{
     width: 24px;
     height: 24px;
+
+    cursor: pointer;
 }
 .otrasOpciones{
     width: 100%;
