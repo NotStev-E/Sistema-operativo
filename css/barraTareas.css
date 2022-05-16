@@ -121,7 +121,7 @@ img{
 
 .inicio{
     height: 16rem;
-    width: 16rem;
+    width: 12rem;
     
     display: flex;
     justify-content: space-between;
@@ -142,6 +142,13 @@ img{
 .desactivar{
     display: none;
 }
+.actApagar{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    left: 0;
+}
 .activar2{
     display: block;
     
@@ -154,6 +161,7 @@ img{
     height: 100%;
     background-color: var(--colorBase);
     border-radius: 10px;
+    color: var(--colorBlanco);
 
     display: flex;
     flex-direction: column;
@@ -166,6 +174,7 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
+    cursor: pointer;
 }
 .opcionesWindows img{
     width: 28px;
@@ -174,8 +183,6 @@ img{
 .iconoApagar img{
     width: 24px;
     height: 24px;
-
-    cursor: pointer;
 }
 .otrasOpciones{
     width: 100%;
@@ -186,8 +193,12 @@ img{
     align-items: center;
 }
 .otrasOpciones div{
-    width: 12.8rem;
+    width: 9.2rem;
     height: 3rem;
-
+    color: var(--colorBlanco);
     border-bottom: 1px solid var(--colorBlanco);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }

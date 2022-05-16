@@ -16,6 +16,8 @@ function desactivar(){
     windows.classList.remove("desactivar");
     botonWindows2.classList.remove("activar");
 }
+
+
 function abrirVentana(){
     var botonCarpeta = document.getElementById('botonArchivo');
     var botonCarpeta2 = document.getElementById('botonArchivo2');
@@ -35,6 +37,7 @@ function cerarVentana(){
     ventana.classList.remove("activar");
 }
 
+
 function reloj(){
     var reloj = document.getElementById('botonReloj');
     var horaYFecha = document.getElementById('horaYFecha');
@@ -47,15 +50,52 @@ function noVerReloj(){
 
     horaYFecha.classList.remove("activar");
 }
+
+
 function apagar(){
     var iconoApagar = document.getElementById('iconoApagar');
     var apagando = document.getElementById('apagar');
 
-    apagando.classList.add("activar");
+    apagando.classList.add("actApagar");
 }
 function encender(){
     var iconoApagar = document.getElementById('iconoApagar');
     var encender = document.getElementById('apagar');
 
-    encender.classList.remove("activar");
+    encender.classList.remove("actApagar");
+}
+
+
+function maximizar(){
+    var botonMaximizar = document.getElementById('maximizar');
+    var botonMaximizar2 = document.getElementById('maximizar2');
+    var ventana = document.getElementById('ventana');
+
+    ventana.classList.add("maximizar");
+    botonMaximizar2.classList.add("activar");
+    botonMaximizar.classList.add("desactivar");
+}
+function minimizar(){
+    var botonMaximizar = document.getElementById('maximizar');
+    var botonMaximizar2 = document.getElementById('maximizar2');
+    var ventana = document.getElementById('ventana');
+
+    ventana.classList.remove("maximizar");
+    botonMaximizar2.classList.remove("activar");
+    botonMaximizar.classList.remove("desactivar");
+}
+function salir(){
+    var botonMaximizar = document.getElementById('maximizar');
+    var botonMaximizar2 = document.getElementById('maximizar2');
+    var ventana = document.getElementById('ventana');
+    var botonCarpeta = document.getElementById('botonArchivo');
+    var botonCarpeta2 = document.getElementById('botonArchivo2');
+    var ventana = document.getElementById('ventana');
+
+    ventana.classList.remove("maximizar");
+    botonMaximizar2.classList.remove("activar");
+    botonMaximizar.classList.remove("desactivar");
+    botonCarpeta.classList.remove("desactivar");
+    botonCarpeta2.classList.remove("activar");
+    ventana.classList.remove("activar");
 }
