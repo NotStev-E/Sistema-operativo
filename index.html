@@ -33,6 +33,12 @@
                 <div class="iconoArchivo2" id="botonArchivo2" type="button" onclick="cerarVentana();">
                     <img src="https://github.com/NotStev-E/Imagenes/blob/main/Imagenes/Icono%20carpeta.png?raw=true" alt="">
                 </div>
+                <div class="icoAjustes" id="icoAjustes" onclick="abrirAjustes();">
+                    <img src="https://github.com/NotStev-E/Imagenes/blob/main/Imagenes/Icono%20configuraciones.png?raw=true" alt="">
+                </div>
+                <div class="icoAjustes2" id="icoAjustes2" onclick="cerrarAjustes();">
+                    <img src="https://github.com/NotStev-E/Imagenes/blob/main/Imagenes/Icono%20configuraciones.png?raw=true" alt="">
+                </div>
             </div>
             <div class="hora">
                 <div class="iconoReloj" id="botonReloj" onpointerenter="reloj();" onpointerleave="noVerReloj();">
@@ -42,9 +48,9 @@
             <div class="inicio" id="inicio">
                 <div class="opcionesWindows">
                     <div class="iconoApagar" id="iconoApagar" onclick="apagar();">
-                        <img src="https://github.com/NotStev-E/Imagenes/blob/main/Imagenes/Icono%20apagar.png?raw=true" alt="">
+                        <img src="https://github.com/NotStev-E/Imagenes/blob/main/Imagenes/Icono%20apagar.png?raw=true">
                     </div>
-                    <div class="iconoConfiguracion">
+                    <div class="iconoConfiguracion" id="iconoConfiguracion" onclick="abrirAjus2();">
                         <img src="https://github.com/NotStev-E/Imagenes/blob/main/Imagenes/Icono%20configuraciones.png?raw=true" alt="">
                     </div>
                     <div>
@@ -84,6 +90,19 @@
                     <div><img src="https://github.com/NottStevE/Imagenes/blob/main/Imagenes/Icono%20minimizar%20ventana.png?raw=true" id="maximizar" onclick="maximizar();"></div>
                     <div><img src="https://github.com/NottStevE/Imagenes/blob/main/Imagenes/Icono%20minimizar%20ventana.png?raw=true" id="maximizar2" class="maximizar2" onclick="minimizar();"></div>
                     <div><img src="https://github.com/NottStevE/Imagenes/blob/main/Imagenes/Icono%20minimizar.png?raw=true" onclick="cerarVentana();"></div>
+                </div>
+            </div>
+        </div>
+        <div class="ventanaAjustes" id="ventanaAjustes">
+            <div class="barraVentana">
+                <div>
+                    Ajustes
+                </div>
+                <div>
+                    <div><img src="https://github.com/NottStevE/Imagenes/blob/main/Imagenes/Icono%20equis.png?raw=true" onclick="salirAjustes();"></div>
+                    <div><img src="https://github.com/NottStevE/Imagenes/blob/main/Imagenes/Icono%20minimizar%20ventana.png?raw=true" id="maximizarAjustes" onclick="maximizarAjustes();"></div>
+                    <div><img src="https://github.com/NottStevE/Imagenes/blob/main/Imagenes/Icono%20minimizar%20ventana.png?raw=true" id="minimizarAjustes" onclick="minimizarAjustes();" class="maximizar2"></div>
+                    <div><img src="https://github.com/NottStevE/Imagenes/blob/main/Imagenes/Icono%20minimizar.png?raw=true" onclick="cerrarAjustes();"></div>
                 </div>
             </div>
         </div>

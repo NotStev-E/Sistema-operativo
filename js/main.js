@@ -39,13 +39,11 @@ function cerarVentana(){
 
 
 function reloj(){
-    var reloj = document.getElementById('botonReloj');
     var horaYFecha = document.getElementById('horaYFecha');
 
     horaYFecha.classList.add("activar");
 }
 function noVerReloj(){
-    var reloj = document.getElementById('botonReloj');
     var horaYFecha = document.getElementById('horaYFecha');
 
     horaYFecha.classList.remove("activar");
@@ -53,19 +51,15 @@ function noVerReloj(){
 
 
 function apagar(){
-    var iconoApagar = document.getElementById('iconoApagar');
     var apagando = document.getElementById('apagar');
 
     apagando.classList.add("actApagar");
 }
 function encender(){
-    var iconoApagar = document.getElementById('iconoApagar');
     var encender = document.getElementById('apagar');
 
     encender.classList.remove("actApagar");
 }
-
-
 function maximizar(){
     var botonMaximizar = document.getElementById('maximizar');
     var botonMaximizar2 = document.getElementById('maximizar2');
@@ -98,4 +92,59 @@ function salir(){
     botonCarpeta.classList.remove("desactivar");
     botonCarpeta2.classList.remove("activar");
     ventana.classList.remove("activar");
+}
+
+
+function abrirAjustes(){
+    var ventana = document.getElementById('ventanaAjustes');
+    var icoAjustes = document.getElementById('icoAjustes');
+    var icoAjustes2 = document.getElementById('icoAjustes2');
+
+    ventana.classList.add("activar");
+    icoAjustes2.classList.add("activar")
+    icoAjustes.classList.remove("activar");
+}
+function abrirAjus2(){
+    var ventana = document.getElementById('ventanaAjustes');
+    var icoAjustes = document.getElementById('icoAjustes');
+
+    ventana.classList.add("activar");
+    icoAjustes.classList.add("activar");
+}
+function cerrarAjustes(){
+    var ventana = document.getElementById('ventanaAjustes');
+    var icoAjustes= document.getElementById('icoAjustes');
+    var icoAjustes2 = document.getElementById('icoAjustes2');
+
+    ventana.classList.remove("activar");
+    icoAjustes2.classList.remove("activar");
+    icoAjustes.classList.add("activar");
+}
+function maximizarAjustes(){
+    var botonMaximizarAjustes = document.getElementById('maximizarAjustes');
+    var botonMinimizarAjustes = document.getElementById('minimizarAjustes');
+    var ventana = document.getElementById('ventanaAjustes');
+
+    botonMaximizarAjustes.classList.add("desactivar");
+    botonMinimizarAjustes.classList.add("activar");
+    ventana.classList.add('maximizarAjustes');
+}
+function minimizarAjustes(){
+    var botonMaximizarAjustes = document.getElementById('maximizarAjustes');
+    var botonMinimizarAjustes = document.getElementById('minimizarAjustes');
+    var ventana = document.getElementById('ventanaAjustes');
+
+    botonMaximizarAjustes.classList.remove("desactivar");
+    botonMinimizarAjustes.classList.remove("activar");
+    ventana.classList.remove('maximizarAjustes');
+}
+function salirAjustes(){
+    var ventana = document.getElementById('ventanaAjustes');
+    var icoAjustes= document.getElementById('icoAjustes');
+    var icoAjustes2 = document.getElementById('icoAjustes2');
+    
+    icoAjustes.classList.remove("desactivar");
+    ventana.classList.remove("activar");
+    icoAjustes2.classList.remove("activar");
+    icoAjustes.classList.remove("activar");
 }

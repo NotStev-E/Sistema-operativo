@@ -14,6 +14,7 @@
 .ventana{
     width: 40rem;
     height: 28rem;
+    margin: 0 0.3rem 0 0;
     background-color: var(--colorBase);
 
     display: flex;
@@ -77,4 +78,19 @@
 }
 .apagar h1{
     margin-bottom: 2rem;
+}
+.ventanaAjustes{
+    width: 40rem;
+    height: 28rem;
+    background-color: var(--colorBase);
+
+    display: flex;
+    justify-content: baseline;
+    border-radius: 10px;
+
+    display: none;
+}
+.maximizarAjustes{
+    width: 100%;
+    height: 100%;
 }
