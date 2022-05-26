@@ -16,8 +16,6 @@ function desactivar(){
     windows.classList.remove("desactivar");
     botonWindows2.classList.remove("activar");
 }
-
-
 function abrirVentana(){
     var botonCarpeta = document.getElementById('botonArchivo');
     var botonCarpeta2 = document.getElementById('botonArchivo2');
@@ -147,4 +145,10 @@ function salirAjustes(){
     ventana.classList.remove("activar");
     icoAjustes2.classList.remove("activar");
     icoAjustes.classList.remove("activar");
+}
+
+
+
+function azul(){
+    var colorAzul = getElementById('azulAjustes');
 }

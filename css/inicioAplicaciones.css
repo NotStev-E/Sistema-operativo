@@ -1,0 +1,107 @@
+/* ------------- CSS DE ICONO APAGAR ------------- */
+.apagar{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-image: url(https://i.pinimg.com/originals/0a/4d/cb/0a4dcb92fa2d3c601b58d72720d6bec4.jpg);
+    object-fit: cover;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: var(--colorBlanco);
+    font-size: 2.5rem;
+    
+    display: none;
+}
+.encender{
+    width: 4rem;
+    height: 4rem;
+    cursor: pointer;
+}
+.apagar h1{
+    margin-bottom: 2rem;
+}
+
+/* ------------- CSS DE LA VENTANA DE AJUSTES ------------- */
+
+.ventanaAjustes{
+    width: 40rem;
+    height: 28rem;
+    background-color: var(--colorBase);
+
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    border-radius: 10px;
+
+    display: none;
+}
+.maximizarAjustes{
+    width: 100%;
+    height: 100%;
+}
+.colorAjustes{
+    width: 100%;
+    height: 100%;
+
+    display: flex;
+    flex-direction: column;
+}
+.colorAjustes div{
+    width: 100%;
+    height: 50%;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.colorAjustes div div{
+    width: 15rem;
+    height: 9rem;
+    border-radius: 10px;
+    margin: 0 0.3rem 0 0.3rem;
+    cursor: pointer;
+}
+.azulAjustes{
+    background-color: rgba(54, 59, 125, 0.5);
+    border: 1px solid rgba(54, 59, 125, 0.8);
+}
+.celesteAjustes{
+    background-color: rgba(54, 108, 125, 0.5);
+    border: 1px solid rgba(54, 108, 125, 0.8);
+}
+.verdeAjustes{
+    background-color: rgba(54, 125, 60, 0.5);
+    border: 1px solid rgba(54, 125, 60, 0.8);
+}
+.amarilloAjustes{
+    background-color: rgba(118, 125, 54, 0.5);
+    border: 1px solid rgba(118, 125, 54, 0.8);
+}
+.anaranjadoAjustes{
+    background-color: rgba(125, 97, 54, 0.5);
+    border: 1px solid rgba(125, 97, 54, 0.8);
+}
+.rojoAjustes{
+    background-color: rgba(125, 54, 54, 0.5);
+    border: 1px solid rgba(125, 54, 54, 0.8);
+}
+.negroAjustes{
+    background-color: rgba(45, 42, 46, 0.5);
+    border: 1px solid rgba(45, 42, 46, 0.8);
+}
+.rosadoAjustes{
+    background-color: rgba(125, 54, 107, 0.5);
+    border: 1px solid rgba(125, 54, 107, 0.8);
+}
+
+/* ------------- CSS DE IMAGENES ------------- */
+
+/* ------------- CSS DE DOCUMENTOS ------------- */
+
+/* ------------- CSS DE PERFIL ------------- */

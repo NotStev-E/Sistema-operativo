@@ -19,3 +19,7 @@ html{
     --letraGrande: 20px;
     --Titulos: 30px;
 }
+.colorAzul{
+    --colorBase: rgba(54, 59, 125, 0.5);
+    --colorOscuro: rgba(54, 59, 125, 0.8);
+}
